@@ -69,3 +69,9 @@ p {
    background: url('https://i.ibb.co/Fb5jb3J/bg2.jpg');
    color: #333;
 }
+
+@media (max-width: 600px) {
+   .container {
+      grid-template-columns: 1fr
+   }
+}
